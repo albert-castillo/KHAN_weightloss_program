@@ -1,0 +1,30 @@
+patient start date
+age
+gender
+race
+occupation
+height
+weight
+diabetic
+AIC level
+cholesterol level
+starting blood pressure
+smoker history
+starting bmi
+pre existing condition1
+pre existing condition2
+pre existing condition3
+average daily calorie intake
+
+
+
+
+date
+distance covered
+hours patient has slept each night
+calories burned
+active minutes
+calorie intake
+blood pressure
+active smoker
+bmi

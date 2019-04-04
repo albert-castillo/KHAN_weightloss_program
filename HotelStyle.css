@@ -1,0 +1,251 @@
+html {
+    background-color: black;
+}
+aside {
+	position:fixed;
+	background-color:white;
+	top:64;
+	height:100%;
+    float: left;
+    width: 180px;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+section {
+	margin-left:100;
+    float: left;
+	padding: 0 12em;
+    width: 700px;
+}
+table, th, td {
+    border: 5px solid white;
+}
+footer {
+    clear: both;
+    border-top: 2px solid black;
+}
+header {
+    margin: 0;
+	position:fixed;
+}
+div{
+	color:white;
+}
+
+#header1{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:64px;
+	background: gray;
+}
+header h1 {
+    margin: 0;
+    color: black;
+}
+header h3 {
+    margin: 0;
+	color: black;
+}
+
+.boxmodel {
+	position:fixed;
+	top:95px;
+	left:20px;
+	float: left;
+	background-color:white;
+	width:300px;
+	border:2px solid black;
+	padding:10px;
+	margin: 2px;
+}
+.hvr-fade {
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(255, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+  text-decoration: none;
+
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #2098D1;
+  color: white;
+  text-decoration: none;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.row {
+  display: flex;
+}
+
+.column {
+  left: 50%;
+  flex: 33.33%;
+  padding: 5px;
+}
+.col {
+  left: 50%;
+  flex: 25.0%;
+  padding: 10px;
+}
+.co {
+  left: 50%;
+  flex: 11.11111%;
+  padding: 10px;
+}
+
+.last_paragraph {
+    margin-bottom: 2em;	
+}
+.no_bottom_margin {
+    margin-bottom: 0em;	
+}
+#right_column ul {
+    list-style-type: disc;
+    padding-left: 2em;
+    margin-top: .25em;
+}
+#left_column p img {
+    text-align: center;
+}
+.product_image_cell {
+    padding-top: 1em;
+    width: 8em;
+    text-align: center;
+}
+.product_info_cell {
+    margin: 0 0 1em;
+}
+.product_info_cell p {
+    margin: 0 0 .25em;
+}
+#left_column {
+    float: left;
+    width: 150px;
+}
+#right_column {
+    float: left;
+    padding-left: 1em;
+    padding-bottom: .5em;
+    width: 330px;
+}
+#left_column p img {
+    text-align: center;
+}
+#right_column ul {
+    list-style-type: disc;
+    padding-left: 2em;
+    margin-top: .25em;
+}
+
+/*
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {width: 250px;}
+.button2 {width: 50%;}
+.button3 {width: 100%;}
+*/
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  width: 100%;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+  width: 100%;
+}
+
+.button3 {
+  background-color: #008CBA; 
+  color: black; 
+  border: 2px solid black;
+  width: 100%;
+}
+
+.button3:hover {
+  background-color: white;
+  color: #008CBA;
+  width: 100%;
+}
+
+
+
